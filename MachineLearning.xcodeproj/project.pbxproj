@@ -13,6 +13,7 @@
 		CA7A0B07294769E900EA47F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA7A0B05294769E900EA47F6 /* Main.storyboard */; };
 		CA7A0B09294769E900EA47F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA7A0B08294769E900EA47F6 /* Assets.xcassets */; };
 		CA7A0B0C294769E900EA47F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA7A0B0A294769E900EA47F6 /* LaunchScreen.storyboard */; };
+		CA7A0B1429477D2700EA47F6 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CA7A0B1329477D2700EA47F6 /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CA7A0B08294769E900EA47F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA7A0B0B294769E900EA47F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA7A0B0D294769E900EA47F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA7A0B1329477D2700EA47F6 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNetV2.mlmodel; path = ../../../../Downloads/MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				CA7A0B08294769E900EA47F6 /* Assets.xcassets */,
 				CA7A0B0A294769E900EA47F6 /* LaunchScreen.storyboard */,
 				CA7A0B0D294769E900EA47F6 /* Info.plist */,
+				CA7A0B1329477D2700EA47F6 /* MobileNetV2.mlmodel */,
 			);
 			path = MachineLearning;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				CA7A0B04294769E800EA47F6 /* ViewController.swift in Sources */,
 				CA7A0B00294769E800EA47F6 /* AppDelegate.swift in Sources */,
+				CA7A0B1429477D2700EA47F6 /* MobileNetV2.mlmodel in Sources */,
 				CA7A0B02294769E800EA47F6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
